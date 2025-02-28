@@ -127,7 +127,7 @@ rem 根据用户选择跳转到对应的功能
 call :function%choice%
 goto :menu
 
-rem 功能实现部分（替换为实际功能）
+rem 功能实现部分
 :function1
 title 以管理员身份重新打开脚本
 cls
@@ -662,4 +662,4 @@ goto :menu
 :exit
 rem 结束脚本
 endlocal
-exit /b
+exit
